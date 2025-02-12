@@ -7,11 +7,10 @@ accountCity = "Gurgaon"
 
 let accountState;
 
-/*
-prefer not to use var
-because of isuue in block scope and functional scope
-
-/*
+// /*
+// prefer not to use var
+// because of isuue in block scope and functional scope
+// /*
 
 accountEmail = "p.vashisht007@gamail.com"
 accountPassword = "65747"
