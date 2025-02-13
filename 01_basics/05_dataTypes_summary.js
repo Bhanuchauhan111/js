@@ -32,4 +32,34 @@ const myFunction = function(){
     console.log("hello world");    // function
 
 } 
-console.log(typeof heros)
+//console.log(typeof heros)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// two types of memory 
+
+// stack(primitive) and heap(non-primitve)
+
+
+let one = "bhanuchauhan270@gmail.com"
+let two = one
+ two = "p.vashisht.com"
+//console.log(one)
+//console.log(two)
+
+
+let userOne ={
+    email: "bhnauchuahan@.com",
+    age :445
+
+}
+let userTwo = userOne
+
+//console.log(userTwo)
+
+userTwo.email = "P.vahsuhst.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
